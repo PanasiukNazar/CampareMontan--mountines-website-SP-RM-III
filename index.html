@@ -1,0 +1,1402 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>CampareMontan</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border text-primary"
+                style="width: 3rem; height: 3rem"
+                role="status"
+            >
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+            <div class="row gx-0">
+                <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                    <div
+                        class="d-inline-flex align-items-center"
+                        style="height: 45px"
+                    >
+                        <small class="me-3 text-light"
+                            ><i class="fa fa-map-marker-alt me-2"></i
+                            >Transfăgărășan Km 104, 117040, Romania</small
+                        >
+                        <small class="me-3 text-light"
+                            ><i class="fa fa-phone-alt me-2"></i
+                            >+40722522941</small
+                        >
+                        <small class="text-light"
+                            ><i class="fa fa-envelope-open me-2"></i
+                            >campare_montan@gmail.com</small
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid position-relative p-0">
+            <nav
+                class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0"
+            >
+                <a href="index.html" class="navbar-brand p-0">
+                    <h1 class="text-primary m-0">
+                        <i class="fa fa-map-marker-alt me-3"></i>CampareMontan
+                    </h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse"
+                >
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active"
+                            >Acasă</a
+                        >
+                        <a href="#about" class="nav-item nav-link">Despre</a>
+                        <a href="#service" class="nav-item nav-link"
+                            >Servicii</a
+                        >
+                        <a href="#testimonial" class="nav-item nav-link"
+                            >Testimoniale</a
+                        >
+                        <a href="#team" class="nav-item nav-link">Echipă</a>
+                        <a href="#contact" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container-fluid bg-primary py-5 mb-5 hero-header">
+                <div class="container py-5">
+                    <div class="row justify-content-center py-5">
+                        <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
+                            <h1
+                                class="display-3 text-white mb-3 animated slideInDown"
+                            >
+                                Descoperă Aventurile Montane
+                            </h1>
+                            <p
+                                class="fs-4 text-white mb-4 animated slideInDown"
+                            >
+                                În inima munților, unde natura te întâmpină cu
+                                peisaje spectaculoase și aer curat, te invităm
+                                să explorezi cele mai bune locuri de campare.
+                                Fie că ești un iubitor al drumețiilor, un
+                                pasionat al observației faunei sălbatice sau pur
+                                și simplu vrei să te relaxezi într-un cadru
+                                natural de vis, site-ul nostru îți oferă
+                                informațiile și resursele necesare pentru o
+                                experiență de neuitat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- About Start -->
+        <div id="about" class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div
+                        class="col-lg-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                        style="min-height: 400px"
+                    >
+                        <div class="position-relative h-100">
+                            <img
+                                class="img-fluid position-absolute w-100 h-100"
+                                src="img/about.jpg"
+                                alt=""
+                                style="object-fit: cover"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <h6
+                            class="section-title bg-white text-start text-primary pe-3"
+                        >
+                            Despre noi
+                        </h6>
+                        <h1 class="mb-4">
+                            Despre Aventurile
+                            <span class="text-primary">Noastre Montane</span>
+                        </h1>
+                        <p class="mb-4">
+                            La noi, găsești pasiunea pentru explorarea și
+                            iubirea naturii în centrul fiecărei experiențe. Ne
+                            dedicăm să oferim informații și resurse esențiale
+                            pentru toți cei care doresc să se bucure de camping
+                            în munți. Suntem o echipă de entuziaști ai
+                            activităților în aer liber, care își propune să te
+                            ajute să descoperi cele mai frumoase și relaxante
+                            locuri de campare, unde natura își arată cele mai
+                            frumoase fațete.
+                        </p>
+                        <p class="mb-4">
+                            Fiecare detaliu al site-ului nostru este creat
+                            pentru a-ți facilita planificarea unei excursii de
+                            neuitat. De la ghiduri complete despre locurile de
+                            campare ideale, la sfaturi practice despre
+                            echipamentele necesare și pregătirea pentru vreme,
+                            suntem aici pentru a-ți oferi tot ce ai nevoie
+                            pentru o aventură montană reușită. Experiența
+                            noastră personală și cunoștințele aprofundate despre
+                            munți ne permit să îți oferim informații precise și
+                            de încredere, astfel încât să poți să te bucuri de
+                            fiecare moment petrecut în natură fără griji.
+                        </p>
+                        <div class="row gy-2 gx-4 mb-4">
+                            <div class="col-sm-6">
+                                <p class="mb-0">
+                                    <i
+                                        class="fa fa-arrow-right text-primary me-2"
+                                    ></i
+                                    >Acces la cele mai bune locații de campare
+                                </p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-0">
+                                    <i
+                                        class="fa fa-arrow-right text-primary me-2"
+                                    ></i>
+                                    Ghiduri detaliate pentru planificarea
+                                    excursiilor
+                                </p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-0">
+                                    <i
+                                        class="fa fa-arrow-right text-primary me-2"
+                                    ></i>
+                                    Sfaturi practice pentru echipamente și
+                                    pregătire
+                                </p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-0">
+                                    <i
+                                        class="fa fa-arrow-right text-primary me-2"
+                                    ></i>
+                                    Recomandări personalizate pentru trasee
+                                    montane
+                                </p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-0">
+                                    <i
+                                        class="fa fa-arrow-right text-primary me-2"
+                                    ></i>
+                                    Informații despre conservarea și protejarea
+                                    naturii
+                                </p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-0">
+                                    <i
+                                        class="fa fa-arrow-right text-primary me-2"
+                                    ></i>
+                                    Resurse pentru o experiență de camping
+                                    confortabilă și sigură
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Service Start -->
+        <div id="service" class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6
+                        class="section-title bg-white text-center text-primary px-3"
+                    >
+                        Servicii
+                    </h6>
+                    <h1>Serviciile Noastre pentru Campare în Munți</h1>
+                    <p class="mb-5">
+                        Descoperă gama noastră de servicii dedicate iubitorilor
+                        de natură și aventuri montane. Ne dedicăm să îți oferim
+                        tot ce ai nevoie pentru o experiență de camping
+                        excelentă în munți. Fie că ești un camper experimentat
+                        sau un novice entuziast, serviciile noastre sunt
+                        concepute pentru a-ți asigura o excursie confortabilă și
+                        fără probleme. De la ghiduri detaliate și recomandări
+                        pentru locațiile ideale, la asistență pentru echipamente
+                        și planificare, suntem aici pentru a face din aventura
+                        ta montană o experiență memorabilă. Explorează oferta
+                        noastră și lasă-ne să te ajutăm să profiți la maximum de
+                        timpul petrecut în natură.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-lg-3 col-sm-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i
+                                    class="fa fa-3x fa-globe text-primary mb-4"
+                                ></i>
+                                <h5>Ghiduri pentru Locații de Campare</h5>
+                                <p>
+                                    Descoperă cele mai frumoase locații de
+                                    campare în munți, cu informații detaliate
+                                    despre facilități, accesibilitate și
+                                    atracții naturale. Ghidurile noastre te
+                                    ajută să găsești locul perfect pentru a te
+                                    relaxa și a te bucura de natura
+                                    înconjurătoare.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-sm-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i
+                                    class="fa fa-3x fa-hotel text-primary mb-4"
+                                ></i>
+                                <h5>Planificare Trasee Montane</h5>
+                                <p>
+                                    Obține sugestii și recomandări pentru trasee
+                                    montane potrivite pentru toate nivelurile de
+                                    dificultate. Îți oferim informații despre
+                                    lungimea traseului, dificultate și peisaje,
+                                    astfel încât să poți alege cea mai bună
+                                    opțiune pentru aventura ta.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-sm-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i
+                                    class="fa fa-3x fa-user text-primary mb-4"
+                                ></i>
+                                <h5>Sfaturi pentru Echipamente de Camping</h5>
+                                <p>
+                                    Află ce echipamente sunt esențiale pentru o
+                                    experiență de camping confortabilă și
+                                    sigură. Îți oferim recomandări despre
+                                    corturi, saci de dormit, rucsaci și alte
+                                    accesorii necesare pentru a te pregăti
+                                    corespunzător pentru călătoria ta montană.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-sm-6 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i
+                                    class="fa fa-3x fa-cog text-primary mb-4"
+                                ></i>
+                                <h5>Asistență pentru Rezervări și Permise</h5>
+                                <p>
+                                    Începe-ți aventura fără stres, cu ajutorul
+                                    nostru pentru rezervări și obținerea
+                                    permiselor necesare pentru campare. Îți
+                                    oferim informații și suport pentru a naviga
+                                    prin cerințele administrative și pentru a
+                                    asigura locul tău în locațiile dorite.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-sm-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i
+                                    class="fa fa-3x fa-globe text-primary mb-4"
+                                ></i>
+                                <h5>Sfaturi pentru Siguranța în Munți</h5>
+                                <p>
+                                    Învață cum să te menții în siguranță în
+                                    timpul excursiilor montane cu sfaturi utile
+                                    despre prevenirea accidentelor, gestionarea
+                                    vremii și comportamentul responsabil în
+                                    natură. Siguranța ta este prioritatea
+                                    noastră și dorim să te asigurăm că ești bine
+                                    pregătit pentru orice situație.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-sm-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i
+                                    class="fa fa-3x fa-hotel text-primary mb-4"
+                                ></i>
+                                <h5>
+                                    Recomandări pentru Activități și Distracție
+                                </h5>
+                                <p>
+                                    Explorează opțiuni pentru activități
+                                    recreative și distracție în munți, cum ar fi
+                                    drumețiile, observarea faunei sălbatice și
+                                    alte experiențe unice. Îți oferim sugestii
+                                    pentru a te bucura la maximum de timpul
+                                    petrecut în natură și pentru a crea amintiri
+                                    de neuitat.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-sm-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i
+                                    class="fa fa-3x fa-user text-primary mb-4"
+                                ></i>
+                                <h5>Ghid pentru Campare Ecologică</h5>
+                                <p>
+                                    Învață cum să practici camparea ecologică
+                                    pentru a minimiza impactul asupra mediului
+                                    înconjurător. Îți oferim sfaturi despre
+                                    gestionarea deșeurilor, utilizarea
+                                    resurselor naturale și respectarea
+                                    principiilor de campare sustenabilă pentru a
+                                    proteja frumusețea naturală a munților.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-sm-6 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i
+                                    class="fa fa-3x fa-cog text-primary mb-4"
+                                ></i>
+                                <h5>
+                                    Consultanță pentru Echipamente Personalizate
+                                </h5>
+                                <p>
+                                    Beneficiază de consultanță personalizată
+                                    pentru a alege echipamentele de camping care
+                                    se potrivesc cel mai bine nevoilor tale
+                                    specifice. Îți oferim recomandări bazate pe
+                                    preferințele tale și condițiile de campare
+                                    pentru a asigura confortul și eficiența
+                                    echipamentului tău.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+        <!-- Destination Start -->
+        <div class="container-xxl py-5 destination">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6
+                        class="section-title bg-white text-center text-primary px-3"
+                    >
+                        Destinație
+                    </h6>
+                    <h1 class="mb-5">
+                        Cele Mai Populare Trasee Montane pentru Campare
+                    </h1>
+                    <p>
+                        Descoperă cele mai populare trasee montane pentru
+                        campare, fiecare oferind o experiență unică în mijlocul
+                        naturii. Fiecare traseu este ales cu grijă pentru a
+                        oferi peisaje spectaculoase, oportunități de explorare
+                        și facilități excelente pentru campare. Indiferent dacă
+                        ești un aventurier experimentat sau un începător în
+                        camping, aceste trasee sunt perfecte pentru a te bucura
+                        de frumusețea munților și pentru a trăi momente de
+                        neuitat în aer liber.
+                    </p>
+                </div>
+                <div class="row g-3">
+                    <div class="col-lg-7 col-md-6">
+                        <div class="row g-3">
+                            <div
+                                class="col-lg-12 col-md-12 wow zoomIn"
+                                data-wow-delay="0.1s"
+                            >
+                                <a
+                                    class="position-relative d-block overflow-hidden"
+                                    href=""
+                                >
+                                    <img
+                                        class="img-fluid"
+                                        src="img/destination-1.jpg"
+                                        alt=""
+                                    />
+                                    <div
+                                        class="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2"
+                                    >
+                                        30% OFF
+                                    </div>
+                                    <div
+                                        class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2"
+                                    >
+                                        Traseul Pădurilor Secrete
+                                    </div>
+                                </a>
+                            </div>
+                            <div
+                                class="col-lg-6 col-md-12 wow zoomIn"
+                                data-wow-delay="0.3s"
+                            >
+                                <a
+                                    class="position-relative d-block overflow-hidden"
+                                    href=""
+                                >
+                                    <img
+                                        class="img-fluid"
+                                        src="img/destination-2.jpg"
+                                        alt=""
+                                    />
+                                    <div
+                                        class="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2"
+                                    >
+                                        25% OFF
+                                    </div>
+                                    <div
+                                        class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2"
+                                    >
+                                        Traseul Vârfului Înalțimilor
+                                    </div>
+                                </a>
+                            </div>
+                            <div
+                                class="col-lg-6 col-md-12 wow zoomIn"
+                                data-wow-delay="0.5s"
+                            >
+                                <a
+                                    class="position-relative d-block overflow-hidden"
+                                    href=""
+                                >
+                                    <img
+                                        class="img-fluid"
+                                        src="img/destination-3.jpg"
+                                        alt=""
+                                    />
+                                    <div
+                                        class="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2"
+                                    >
+                                        35% OFF
+                                    </div>
+                                    <div
+                                        class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2"
+                                    >
+                                        Traseul Râurilor de Munte
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-5 col-md-6 wow zoomIn"
+                        data-wow-delay="0.7s"
+                        style="min-height: 350px"
+                    >
+                        <a
+                            class="position-relative d-block h-100 overflow-hidden"
+                            href=""
+                        >
+                            <img
+                                class="img-fluid position-absolute w-100 h-100"
+                                src="img/destination-4.jpg"
+                                alt=""
+                                style="object-fit: cover"
+                            />
+                            <div
+                                class="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2"
+                            >
+                                20% OFF
+                            </div>
+                            <div
+                                class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2"
+                            >
+                                Traseul Peșterilor Întunecate
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Destination Start -->
+
+        <!-- Package Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6
+                        class="section-title bg-white text-center text-primary px-3"
+                    >
+                        Excursii
+                    </h6>
+                    <h1 class="mb-5">Trasee Montane Pe Care Le Oferim</h1>
+                    <p>
+                        Explorează cele mai spectaculoase trasee montane pe care
+                        le oferim și descoperă frumusețea naturii la maxim.
+                        Fiecare traseu este selectat pentru a oferi o experiență
+                        de neuitat în mijlocul naturii, cu peisaje
+                        impresionante, oportunități de aventură și facilități
+                        excelente pentru campare. Indiferent de nivelul tău de
+                        experiență, avem trasee care îți vor satisface dorința
+                        de explorare și relaxare în munți. În plus, îți oferim
+                        informații detaliate despre termenii și prețurile
+                        fiecărei excursii pentru a face planificarea călătoriei
+                        tale cât mai simplă și plăcută.
+                    </p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="package-item">
+                            <div class="overflow-hidden">
+                                <img
+                                    class="img-fluid"
+                                    src="img/package-1.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="d-flex border-bottom">
+                                <small
+                                    class="flex-fill text-center border-end py-2"
+                                    ><i
+                                        class="fa fa-calendar-alt text-primary me-2"
+                                    ></i
+                                    >2 zile</small
+                                >
+                                <small class="flex-fill text-center py-2"
+                                    ><i class="fa fa-user text-primary me-2"></i
+                                    >1 persoană</small
+                                >
+                            </div>
+                            <div class="text-center p-4">
+                                <h3 class="mb-0">250/RON</h3>
+                                <div class="mb-3">
+                                    <small
+                                        class="fa fa-star text-primary"
+                                    ></small>
+                                    <small
+                                        class="fa fa-star text-primary"
+                                    ></small>
+                                    <small
+                                        class="fa fa-star text-primary"
+                                    ></small>
+                                    <small
+                                        class="fa fa-star text-primary"
+                                    ></small>
+                                    <small
+                                        class="fa fa-star text-primary"
+                                    ></small>
+                                </div>
+                                <h2>Vârfului Brâncoveanu</h2>
+                                <p>
+                                    Acest traseu te conduce pe vârful
+                                    Brâncoveanu, oferindu-ți priveliști
+                                    spectaculoase asupra întregii regiuni
+                                    montane. Vei traversa păduri de conifere și
+                                    vei ajunge într-o zonă de campare situată la
+                                    altitudine, unde vei putea admira
+                                    răsăriturile și apusurile magnifice.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="package-item">
+                            <div class="overflow-hidden">
+                                <img
+                                    class="img-fluid"
+                                    src="img/package-2.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="d-flex border-bottom">
+                                <small
+                                    class="flex-fill text-center border-end py-2"
+                                    ><i
+                                        class="fa fa-calendar-alt text-primary me-2"
+                                    ></i
+                                    >3 zile</small
+                                >
+                                <small class="flex-fill text-center py-2"
+                                    ><i class="fa fa-user text-primary me-2"></i
+                                    >1 persoană</small
+                                >
+                            </div>
+                            <div class="text-center p-4">
+                                <h3 class="mb-0">300/RON</h3>
+                                <div class="mb-3">
+                                    <small
+                                        class="fa fa-star text-primary"
+                                    ></small>
+                                    <small
+                                        class="fa fa-star text-primary"
+                                    ></small>
+                                    <small
+                                        class="fa fa-star text-primary"
+                                    ></small>
+                                    <small
+                                        class="fa fa-star text-primary"
+                                    ></small>
+                                    <small
+                                        class="fa fa-star text-primary"
+                                    ></small>
+                                </div>
+                                <h2>Traseul Peșterilor Luminoase</h2>
+                                <p>
+                                    Explorează un traseu fascinant ce trece prin
+                                    peșteri și formațiuni stâncoase
+                                    impresionante. Camparea în apropierea
+                                    peșterilor oferă o experiență unică, cu
+                                    oportunități de explorare a minunilor
+                                    subterane și relaxare într-un cadru natural
+                                    deosebit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="package-item">
+                            <div class="overflow-hidden">
+                                <img
+                                    class="img-fluid"
+                                    src="img/package-3.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="d-flex border-bottom">
+                                <small
+                                    class="flex-fill text-center border-end py-2"
+                                    ><i
+                                        class="fa fa-calendar-alt text-primary me-2"
+                                    ></i
+                                    >1 zile</small
+                                >
+                                <small class="flex-fill text-center py-2"
+                                    ><i class="fa fa-user text-primary me-2"></i
+                                    >1 persoană</small
+                                >
+                            </div>
+                            <div class="text-center p-4">
+                                <h3 class="mb-0">200 /RON</h3>
+                                <div class="mb-3">
+                                    <small
+                                        class="fa fa-star text-primary"
+                                    ></small>
+                                    <small
+                                        class="fa fa-star text-primary"
+                                    ></small>
+                                    <small
+                                        class="fa fa-star text-primary"
+                                    ></small>
+                                    <small
+                                        class="fa fa-star text-primary"
+                                    ></small>
+                                    <small
+                                        class="fa fa-star text-primary"
+                                    ></small>
+                                </div>
+                                <h2>Traseul Valea Izvorului</h2>
+                                <p>
+                                    Acest traseu urmărește cursul unui râu de
+                                    munte cristalin, oferindu-ți oportunitatea
+                                    de a campa pe malul apei. Pe parcurs vei
+                                    întâlni cascade ascunse și piscine naturale,
+                                    ideale pentru o bălăceală răcoritoare după o
+                                    zi de drumeție.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Package End -->
+
+        <!-- Booking Start -->
+        <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="booking p-5">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-md-12 text-white">
+                            <h1 class="text-white mb-4">
+                                Descoperiți Libertatea și Frumusețea Naturii
+                            </h1>
+                            <p class="mb-4">
+                                Explorarea munților este o aventură de neuitat,
+                                care ne oferă oportunitatea de a ne deconecta de
+                                la ritmul alert al vieții cotidiene și de a ne
+                                reconecta cu natura. Munții nu sunt doar un loc
+                                pentru campare, ci și un refugiu care ne permite
+                                să trăim experiențe autentice și să ne relaxăm
+                                într-un cadru natural spectaculos. În acest
+                                context, Împărțirea Experiențelor Montane este
+                                concepută pentru a vă ajuta să navigați prin
+                                opțiunile variate de campare în munți și să
+                                găsiți cele mai bune locuri și activități care
+                                se potrivesc dorințelor și nevoilor
+                                dumneavoastră. Fie că sunteți în căutarea unei
+                                aventuri adrenaline sau a unui sejur liniștit în
+                                mijlocul naturii, oferim informații detaliate și
+                                resurse pentru a vă asigura că experiența
+                                dumneavoastră este atât plăcută cât și
+                                memorabilă. În această secțiune, veți găsi
+                                ghiduri pentru cele mai bune locuri de campare,
+                                sugestii pentru trasee montane, și recomandări
+                                pentru echipamente necesare. Ne concentrăm pe
+                                crearea unui echilibru între confort și
+                                aventură, astfel încât fiecare vizitator să
+                                poată găsi ceva care să îi satisfacă nevoile și
+                                dorințele.Ne dorim să facem fiecare călătorie
+                                montană accesibilă și plăcută, oferind toate
+                                informațiile necesare pentru a vă ajuta să vă
+                                planificați și să vă organizați excursia.
+                                Descoperiți și bucurați-vă de frumusețea naturii
+                                montane, în timp ce noi vă ghidăm în fiecare pas
+                                al călătoriei dumneavoastră. Cu un accent pe
+                                securitate, confort și respect pentru mediu,
+                                Împărțirea Experiențelor Montane vă va oferi
+                                toate resursele necesare pentru a avea o
+                                experiență de neuitat în mijlocul munților.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Booking Start -->
+
+        <!-- Process Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div
+                    class="text-center pb-4 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                >
+                    <h6
+                        class="section-title bg-white text-center text-primary px-3"
+                    >
+                        Proces
+                    </h6>
+                    <h1 class="mb-5">3 pași simpli</h1>
+                </div>
+                <div class="row gy-5 gx-4 justify-content-center">
+                    <div
+                        class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div
+                            class="position-relative border border-primary pt-5 pb-4 px-4"
+                        >
+                            <div
+                                class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow"
+                                style="width: 100px; height: 100px"
+                            >
+                                <i class="fa fa-globe fa-3x text-white"></i>
+                            </div>
+                            <h5 class="mt-4">Alegeți Destinația Perfectă</h5>
+                            <hr class="w-25 mx-auto bg-primary mb-1" />
+                            <hr class="w-50 mx-auto bg-primary mt-0" />
+                            <p class="mb-0">
+                                Găsiți locul ideal pentru campare montană.
+                                Descoperiți diverse destinații care oferă
+                                peisaje spectaculoase și experiențe unice,
+                                adaptate preferințelor dumneavoastră, fie că
+                                doriți relaxare sau aventură activă.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div
+                            class="position-relative border border-primary pt-5 pb-4 px-4"
+                        >
+                            <div
+                                class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow"
+                                style="width: 100px; height: 100px"
+                            >
+                                <i
+                                    class="fa fa-dollar-sign fa-3x text-white"
+                                ></i>
+                            </div>
+                            <h5 class="mt-4">
+                                Plătiți Online Rapid și Securizat
+                            </h5>
+                            <hr class="w-25 mx-auto bg-primary mb-1" />
+                            <hr class="w-50 mx-auto bg-primary mt-0" />
+                            <p class="mb-0">
+                                Finalizați rezervarea cu ușurință prin plata
+                                online. Sistemul nostru securizat vă permite să
+                                efectuați tranzacții rapid și fără bătăi de cap,
+                                protejând informațiile dumneavoastră personale.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div
+                            class="position-relative border border-primary pt-5 pb-4 px-4"
+                        >
+                            <div
+                                class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow"
+                                style="width: 100px; height: 100px"
+                            >
+                                <i class="fa fa-plane fa-3x text-white"></i>
+                            </div>
+                            <h5 class="mt-4">Plecați în Aventură</h5>
+                            <hr class="w-25 mx-auto bg-primary mb-1" />
+                            <hr class="w-50 mx-auto bg-primary mt-0" />
+                            <p class="mb-0">
+                                Pregătiți-vă pentru călătorie și bucurați-vă de
+                                aventura montană. Verificați echipamentul și
+                                proviziile, și explorați natura oferită de
+                                destinația aleasă, trăind experiențe memorabile.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Process Start -->
+
+        <!-- Team Start -->
+        <div id="team" class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6
+                        class="section-title bg-white text-center text-primary px-3"
+                    >
+                        Ghid de călătorie
+                    </h6>
+                    <h1 class="mb-5">Cunoașteți ghidul nostru</h1>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="team-item">
+                            <div class="overflow-hidden">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-1.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="text-center p-4">
+                                <h5 class="mb-0">Alexandru Popescu</h5>
+                                <small>Ghid Montan</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="team-item">
+                            <div class="overflow-hidden">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-2.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="text-center p-4">
+                                <h5 class="mb-0">Ioana Ionescu</h5>
+                                <small
+                                    >Specialist în Logistica Campingului</small
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="team-item">
+                            <div class="overflow-hidden">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-3.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="text-center p-4">
+                                <h5 class="mb-0">Radu Dumitrescu</h5>
+                                <small>Coordonator de Trasee</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div class="team-item">
+                            <div class="overflow-hidden">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-4.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="text-center p-4">
+                                <h5 class="mb-0">Maria Georgescu</h5>
+                                <small
+                                    >Expert în Securitate și Prim-Ajutor</small
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+        <!-- Testimonial Start -->
+        <div
+            id="testimonial"
+            class="container-xxl py-5 wow fadeInUp"
+            data-wow-delay="0.1s"
+        >
+            <div class="container">
+                <div class="text-center">
+                    <h6
+                        class="section-title bg-white text-center text-primary px-3"
+                    >
+                        Mărturii
+                    </h6>
+                    <h1 class="mb-5">Clienții noștri spun!!!</h1>
+                </div>
+                <div
+                    class="owl-carousel testimonial-carousel position-relative"
+                >
+                    <div
+                        class="testimonial-item bg-white text-center border p-4"
+                    >
+                        <img
+                            class="bg-white rounded-circle shadow p-1 mx-auto mb-3"
+                            src="img/testimonial-1.jpg"
+                            style="width: 80px; height: 80px"
+                        />
+                        <h5 class="mb-0">Maria Popa</h5>
+                        <p class="mb-0">
+                            "Am avut o experiență extraordinară! Campingul în
+                            munți a fost exact ceea ce căutam pentru o escapadă
+                            de weekend. Peisajul era de vis, iar facilitățile au
+                            fost perfect pregătite. Ghidul nostru, Alexandru, a
+                            fost foarte bine pregătit și ne-a oferit informații
+                            valoroase despre trasee. Cu siguranță vom reveni!"
+                        </p>
+                    </div>
+                    <div
+                        class="testimonial-item bg-white text-center border p-4"
+                    >
+                        <img
+                            class="bg-white rounded-circle shadow p-1 mx-auto mb-3"
+                            src="img/testimonial-2.jpg"
+                            style="width: 80px; height: 80px"
+                        />
+                        <h5 class="mb-0">Ion Munteanu</h5>
+                        <p class="mt-2 mb-0">
+                            "Traseele montane sunt absolut minunate! Am petrecut
+                            câteva zile în natură, departe de agitația
+                            cotidiană, și am fost impresionat de
+                            profesionalismul echipei. Ioana a avut grijă de
+                            toate detaliile legate de camping, iar Radu a creat
+                            trasee care ne-au oferit nu doar provocări, ci și
+                            peisaje deosebite. Recomand cu încredere!"
+                        </p>
+                    </div>
+                    <div
+                        class="testimonial-item bg-white text-center border p-4"
+                    >
+                        <img
+                            class="bg-white rounded-circle shadow p-1 mx-auto mb-3"
+                            src="img/testimonial-3.jpg"
+                            style="width: 80px; height: 80px"
+                        />
+                        <h5 class="mb-0">Elena Ionescu</h5>
+                        <p class="mt-2 mb-0">
+                            "Campingul a fost o adevărată revelație pentru noi.
+                            Maria a fost un adevărat profesionist în asigurarea
+                            măsurilor de siguranță, iar echipa a făcut tot
+                            posibilul să ne simțim confortabil. Apreciem foarte
+                            mult modul în care au gestionat totul și modul în
+                            care ne-au făcut să ne simțim bineveniți. Mulțumim
+                            pentru o experiență memorabilă!"
+                        </p>
+                    </div>
+                    <div
+                        class="testimonial-item bg-white text-center border p-4"
+                    >
+                        <img
+                            class="bg-white rounded-circle shadow p-1 mx-auto mb-3"
+                            src="img/testimonial-4.jpg"
+                            style="width: 80px; height: 80px"
+                        />
+                        <h5 class="mb-0">Andrei Bălan</h5>
+                        <p class="mt-2 mb-0">
+                            "Am ales să facem camping în munți pentru prima dată
+                            și am fost extrem de impresionați de tot. Traseele
+                            erau bine întreținute și pline de frumuseți
+                            naturale. În plus, echipa a fost extrem de
+                            prietenoasă și atentă la nevoile noastre. Este clar
+                            că sunt pasionați de ceea ce fac. Ne-am simțit în
+                            siguranță și am avut parte de o aventură minunată!"
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+        <!-- Contact Start -->
+        <div id="contact" class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6
+                        class="section-title bg-white text-center text-primary px-3"
+                    >
+                        Contactați-ne
+                    </h6>
+                    <h1 class="mb-5">Contactați-ne pentru Orice Întrebare</h1>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <h5>Contactați-ne</h5>
+                        <p class="mb-4">
+                            Suntem aici pentru a vă ajuta! Dacă aveți întrebări,
+                            nelămuriri sau nevoie de asistență suplimentară, nu
+                            ezitați să ne contactați.
+                        </p>
+                        <div class="d-flex align-items-center mb-4">
+                            <div
+                                class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary"
+                                style="width: 50px; height: 50px"
+                            >
+                                <i class="fa fa-map-marker-alt text-white"></i>
+                            </div>
+                            <div class="ms-3">
+                                <h5 class="text-primary">Birou</h5>
+                                <p class="mb-0">
+                                    Transfăgărășan Km 104, 117040, România
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-4">
+                            <div
+                                class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary"
+                                style="width: 50px; height: 50px"
+                            >
+                                <i class="fa fa-phone-alt text-white"></i>
+                            </div>
+                            <div class="ms-3">
+                                <h5 class="text-primary">Mobil</h5>
+                                <p class="mb-0">+40722522941</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <div
+                                class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary"
+                                style="width: 50px; height: 50px"
+                            >
+                                <i class="fa fa-envelope-open text-white"></i>
+                            </div>
+                            <div class="ms-3">
+                                <h5 class="text-primary">Email</h5>
+                                <p class="mb-0">campare_montan@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d348919.05934737733!2d24.18598422334168!3d45.85282695669846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474ce9ba2e169af1%3A0xab8aef34e2cad4b9!2sTransfagarasan%20Camping!5e0!3m2!1suk!2sua!4v1723040220130!5m2!1suk!2sua"
+                            class="position-relative rounded w-100 h-100"
+                            frameborder="0"
+                            style="min-height: 300px; border: 0"
+                            allowfullscreen=""
+                            aria-hidden="false"
+                            tabindex="0"
+                        ></iframe>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-12 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="name"
+                                            placeholder="Numele Dvs."
+                                        />
+                                        <label for="name">Numele Dvs.</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input
+                                            type="email"
+                                            class="form-control"
+                                            id="email"
+                                            placeholder="Email-ul Dvs."
+                                        />
+                                        <label for="email">Email-ul Dvs.</label>
+                                        <div
+                                            id="result"
+                                            style="color: red; font-size: 12px"
+                                        ></div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="subject"
+                                            placeholder="Subiect"
+                                        />
+                                        <label for="subject">Subiect</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea
+                                            class="form-control"
+                                            placeholder="Lăsați un mesaj aici"
+                                            id="message"
+                                            style="height: 100px"
+                                        ></textarea>
+                                        <label for="message">Mesaj</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button
+                                        class="btn btn-primary w-100 py-3"
+                                        type="submit"
+                                        id="submit"
+                                        onclick="sendForm()"
+                                    >
+                                        Trimiteți Mesajul
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-4 col-md-6">
+                        <h4 class="text-white mb-3">CampareMontan</h4>
+                        <p>
+                            În footerul nostru, găsiți toate informațiile
+                            necesare pentru a ne contacta și pentru a naviga
+                            ușor pe site-ul nostru. Aici puteți accesa link-uri
+                            rapide către paginile importante, inclusiv despre
+                            noi, serviciile noastre și politica de
+                            confidențialitate.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h4 class="text-white mb-3">Companie</h4>
+                        <a class="btn btn-link" href="index.html">Acasă</a>
+                        <a class="btn btn-link" href="index.html#about"
+                            >Despre Noi</a
+                        >
+                        <a class="btn btn-link" href="index.html#contact"
+                            >Contact</a
+                        >
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Politica de Confidențialitate</a
+                        >
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Termeni și Condiții</a
+                        >
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h4 class="text-white mb-3">Contact</h4>
+                        <p class="mb-2">
+                            <i class="fa fa-map-marker-alt me-3"></i
+                            >Transfăgărășan Km 104, 117040, România
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-phone-alt me-3"></i>+40722522941
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-envelope me-3"></i
+                            >campare_montan@gmail.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">
+                    Consimțământ pentru Cookie-uri
+                </h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Acest site utilizează cookie-uri pentru a vă oferi o
+                    experiență de navigare superioară și mai relevantă.
+                    <a href="#">Aflați mai multe...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Accept</button>
+                <button class="cookie-button" id="declineBtn">Refuz</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/tempusdominus/js/moment.min.js"></script>
+        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/contact-form.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
